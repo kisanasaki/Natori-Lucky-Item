@@ -17,7 +17,7 @@
     </div>
 
     <div class="text-center">
-      <button class="btn btn-primary">PHSH</button>
+      <button class="btn btn-primary" onclick="refresh()">PHSH</button>
     </div>
   </div>
 
@@ -26,10 +26,15 @@
 
   <script>
     let dom = document.getElementById('display');
-    let el = React.createElement(
-      'p',{},'Reactが動きました!'
-    );
-    //ReactDOM.render(el,dom);
+
+    let refresh = () => {
+      let num = Math.random();
+      let el = React.createElement(
+      'p',{},num
+      );
+      ReactDOM.render(el,dom);
+    }
+
 
   </script>
 </body>
