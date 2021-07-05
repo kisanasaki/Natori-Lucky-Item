@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
+  let items = [
+    {"name":"いちご","price":"100"},
+    {"name":"りんご","price":"150"},
+    {"name":"バナナ","price":"230"}
+  ]
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <div className="App"></>
+  )
+}
+
+class Clock extends React.Component{
+  render(){
+    return <p>コンポーネントだよ</p>
+  }
 }
 
 export default App;
