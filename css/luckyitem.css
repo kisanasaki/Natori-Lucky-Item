@@ -1,13 +1,18 @@
-body,
-html{
-  position: absolute;
+.wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
+}
+
+.bg-skyblue {
   background-color: lightskyblue;
+}
+
+.bg-white {
+  background-color: white;
 }
 
 .stagger-visualizer {
@@ -31,4 +36,16 @@ html{
 
 .hidden {
   display: none;
+}
+
+.center {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+#load {
+  width:100%;
+  text-align:center;
 }
