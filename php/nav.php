@@ -7,10 +7,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
+          <a class="nav-link active" aria-current="page" href="homepage.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">about</a>
+          <a class="nav-link" href="about.php">about</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://github.com/kisanasaki/Natori-Lucky-Item">Github</a>
