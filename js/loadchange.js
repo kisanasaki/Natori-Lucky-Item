@@ -12,5 +12,9 @@ function load(){
   load1.classList.add('hidden');
   wrapper.classList.add('bg-white');
   wrapper.classList.remove('bg-skyblue');
+  window.setTimeout(text, 500);
+}
+
+function text(){
   contents.classList.remove('hidden');
 }

@@ -13,6 +13,7 @@
 
 .bg-white {
   background-color: white;
+  transition: 1s ;
 }
 
 .stagger-visualizer {
@@ -48,4 +49,8 @@
 #load {
   width:100%;
   text-align:center;
+}
+
+#contents {
+  
 }
